@@ -10,3 +10,8 @@
 #Don't track the image files:
 *.png
 *.jpg
+
+#Don't track the files that were built with the install command
+build/
+dist/
+pylearn2.egg-info/
